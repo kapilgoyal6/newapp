@@ -55,4 +55,8 @@ Myapp::Application.routes.draw do
   #   end
 
   root :to => 'pages#index'
+  get '/bio' => 'pages#bio'
+  get '/index' => 'pages#index'
+  get '/gallery' => 'pages#gallery'
+  get '/contact' => 'pages#contact'
 end
