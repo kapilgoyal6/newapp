@@ -59,4 +59,7 @@ Myapp::Application.routes.draw do
   get '/index' => 'pages#index'
   get '/gallery' => 'pages#gallery'
   get '/contact' => 'pages#contact'
+  get '/news' => 'pages#news'
+  get '/career' => 'pages#career'
+  get '/updates' => 'pages#updates'
 end
