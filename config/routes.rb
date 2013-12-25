@@ -62,4 +62,5 @@ Myapp::Application.routes.draw do
   get '/news' => 'pages#news'
   get '/career' => 'pages#career'
   get '/updates' => 'pages#updates'
+  get '/submit' => 'pages#submit'
 end

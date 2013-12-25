@@ -1,7 +1,7 @@
 #slideshow #slideshowWindow{
 
         width: 900px;
-        height: 257px;
+        height: 300px;
         margin: 0;
         padding: 0;
         position: relative;
@@ -14,7 +14,7 @@
         margin: 0;
         padding: 0;
         width: 900px;
-        height: 257px;
+        height: 300px;
         float: left;
         position: relative;
 
@@ -57,30 +57,32 @@
         display:block; 
         text-indent:-10000px; 
         position:absolute; 
-        cursor:pointer; 
+        cursor:pointer;
 
 } 
 
 #leftNav { 
 
-        top:223px; 
-        left:660px; 
-        width:94px; 
-        height:34px; 
-        background-image:url(previous.png); 
+        top:100px; 
+        left:800px; 
+        width:50px; 
+        height:25px; 
+        background-image:url(leftarrow.png); 
         background-repeat:no-repeat; 
         z-index:999; 
+        /*background-color: black;*/
 } 
 
 #rightNav { 
 
-        top:225px; 
-        left:760px; 
-        width:53px; 
-        height:26px; 
-        background-image:url(next.png); 
+        top:100px; 
+        left:870px; 
+        width:50px; 
+        height:25px; 
+        background-image:url(rightarrow.png); 
         background-repeat:no-repeat; 
         z-index:999; 
+        /*background-color: green;*/
 
 
 }

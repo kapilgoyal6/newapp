@@ -36,6 +36,8 @@ GEM
       execjs
     coffee-script-source (1.6.3)
     commonjs (0.2.7)
+    entypo-rails (2.2.1)
+      railties (>= 3.1, <= 5)
     erubis (2.7.0)
     execjs (2.0.2)
     font-awesome-less (4.0.2)
@@ -127,6 +129,7 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 4.0.0)
+  entypo-rails
   font-awesome-less
   gumby-framework (~> 0.0.1)
   jbuilder (~> 1.2)
