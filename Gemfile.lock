@@ -40,6 +40,8 @@ GEM
       railties (>= 3.1, <= 5)
     erubis (2.7.0)
     execjs (2.0.2)
+    fancybox-rails (0.2.1)
+      railties (>= 3.1.0)
     font-awesome-less (4.0.2)
       less-rails (>= 2.4.2)
     gumby-framework (0.0.1)
@@ -130,6 +132,7 @@ PLATFORMS
 DEPENDENCIES
   coffee-rails (~> 4.0.0)
   entypo-rails
+  fancybox-rails
   font-awesome-less
   gumby-framework (~> 0.0.1)
   jbuilder (~> 1.2)

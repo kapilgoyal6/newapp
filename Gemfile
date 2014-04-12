@@ -1,6 +1,11 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+
+gem 'fancybox-rails'
+
+
+
 gem 'rails', '4.0.2'
 gem "gumby-framework", "~> 0.0.1"
 gem 'font-awesome-less'
